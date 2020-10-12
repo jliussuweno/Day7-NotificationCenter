@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		1493DA1A252D9BDB00AB5DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA19252D9BDB00AB5DC6 /* AppDelegate.swift */; };
 		1493DA1C252D9BDB00AB5DC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA1B252D9BDB00AB5DC6 /* SceneDelegate.swift */; };
-		1493DA1E252D9BDB00AB5DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA1D252D9BDB00AB5DC6 /* ViewController.swift */; };
+		1493DA1E252D9BDB00AB5DC6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA1D252D9BDB00AB5DC6 /* ThirdViewController.swift */; };
 		1493DA21252D9BDB00AB5DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493DA1F252D9BDB00AB5DC6 /* Main.storyboard */; };
 		1493DA23252D9BE300AB5DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1493DA22252D9BE300AB5DC6 /* Assets.xcassets */; };
 		1493DA26252D9BE300AB5DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493DA24252D9BE300AB5DC6 /* LaunchScreen.storyboard */; };
+		1493DA34252DA11900AB5DC6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA33252DA11900AB5DC6 /* FirstViewController.swift */; };
+		1493DA37252DA12C00AB5DC6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493DA36252DA12C00AB5DC6 /* SecondViewController.swift */; };
+		1495AE5D252DB750000CE5E1 /* NotificationTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495AE5C252DB750000CE5E1 /* NotificationTopic.swift */; };
+		1495AE61252DB96C000CE5E1 /* NotifPayLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495AE60252DB96C000CE5E1 /* NotifPayLoad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1493DA16252D9BDB00AB5DC6 /* Day7-NotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day7-NotificationCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1493DA19252D9BDB00AB5DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1493DA1B252D9BDB00AB5DC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1493DA1D252D9BDB00AB5DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1493DA1D252D9BDB00AB5DC6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		1493DA20252D9BDB00AB5DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1493DA22252D9BE300AB5DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1493DA25252D9BE300AB5DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1493DA27252D9BE300AB5DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1493DA33252DA11900AB5DC6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1493DA36252DA12C00AB5DC6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1495AE5C252DB750000CE5E1 /* NotificationTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTopic.swift; sourceTree = "<group>"; };
+		1495AE60252DB96C000CE5E1 /* NotifPayLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifPayLoad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		1493DA18252D9BDB00AB5DC6 /* Day7-NotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
+				1493DA2E252D9BF600AB5DC6 /* Model */,
+				1493DA2F252D9BFD00AB5DC6 /* View */,
+				1493DA30252D9C0600AB5DC6 /* Controller */,
 				1493DA19252D9BDB00AB5DC6 /* AppDelegate.swift */,
 				1493DA1B252D9BDB00AB5DC6 /* SceneDelegate.swift */,
-				1493DA1D252D9BDB00AB5DC6 /* ViewController.swift */,
-				1493DA1F252D9BDB00AB5DC6 /* Main.storyboard */,
 				1493DA22252D9BE300AB5DC6 /* Assets.xcassets */,
-				1493DA24252D9BE300AB5DC6 /* LaunchScreen.storyboard */,
 				1493DA27252D9BE300AB5DC6 /* Info.plist */,
 			);
 			path = "Day7-NotificationCenter";
+			sourceTree = "<group>";
+		};
+		1493DA2E252D9BF600AB5DC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1495AE5C252DB750000CE5E1 /* NotificationTopic.swift */,
+				1495AE60252DB96C000CE5E1 /* NotifPayLoad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1493DA2F252D9BFD00AB5DC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1493DA1F252D9BDB00AB5DC6 /* Main.storyboard */,
+				1493DA24252D9BE300AB5DC6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1493DA30252D9C0600AB5DC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1493DA33252DA11900AB5DC6 /* FirstViewController.swift */,
+				1493DA36252DA12C00AB5DC6 /* SecondViewController.swift */,
+				1493DA1D252D9BDB00AB5DC6 /* ThirdViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1493DA1E252D9BDB00AB5DC6 /* ViewController.swift in Sources */,
+				1493DA1E252D9BDB00AB5DC6 /* ThirdViewController.swift in Sources */,
 				1493DA1A252D9BDB00AB5DC6 /* AppDelegate.swift in Sources */,
 				1493DA1C252D9BDB00AB5DC6 /* SceneDelegate.swift in Sources */,
+				1493DA37252DA12C00AB5DC6 /* SecondViewController.swift in Sources */,
+				1495AE5D252DB750000CE5E1 /* NotificationTopic.swift in Sources */,
+				1495AE61252DB96C000CE5E1 /* NotifPayLoad.swift in Sources */,
+				1493DA34252DA11900AB5DC6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
